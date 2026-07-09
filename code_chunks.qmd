@@ -1,0 +1,34 @@
+---
+title: "quarto_chunks"
+author: "Vasiliki"
+format: html
+toc: true
+toc-ocation: left
+grid:
+ sidebar-width: 200px
+ body-width: 900px
+ margin-width: 400px
+ gutter-width: 1.5rem
+  html: 
+  self-contained: true
+   theme: 
+    light: minty
+    dark: superhero
+    lang: it
+    bibliography: biblio.bib
+editor: visual
+---
+
+```{r}
+head(cars)
+```
+
+```{r}
+head(cars)
+```
+
+```{r}
+#| echo: false  
+
+head(cars)
+```

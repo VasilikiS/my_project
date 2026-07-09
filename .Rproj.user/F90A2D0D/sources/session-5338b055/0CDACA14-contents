@@ -1,6 +1,7 @@
 ---
-title: "my first website"
-format:
+title: "quarto_chunks"
+author: "Vasiliki"
+format: html
 toc: true
 toc-ocation: left
 grid:
@@ -15,52 +16,12 @@ grid:
     dark: superhero
     lang: it
     bibliography: biblio.bib
-
-
 editor: visual
 ---
 
-## 
-
-This is Vasiliki's website!
-
-This is Vasiliki's
-
-### First Section
-
-And this is a turtle!
-
-\![A turtle\](images/tartaruga.jpg){#fig-tarta}
-
-@fig-tarta presents a turtle
-
-\[Link to something: <https://worldrise.org/wp-content/uploads/2024/08/Worldrise-seamag-tartaruga-1.jpg>\]
-
-###sub section
-
-$X = V + E$
-
-$$z = \dfrac{z - \mu{\sigma}$$ {#eq-myequation}
-
-In @eq-myequation, we wrote down an equation
-
-another sub sub section
-
-this is a paragraph
-
-### My paragraph
-
-::::: columns
-::: {.column width="40%"}
-I want some text in the left column
-:::
-
-::: {.column width="60%"}
-And a picture in the right one
-:::
-:::::
-
-For further details look at the \[code chunk\] (code_chunks.html) file. :::
+```{r}
+head(cars)
+```
 
 ```{r}
 head(cars)
@@ -89,3 +50,6 @@ plot(d$x, d$dx, type = "l", lwd = 2, cex = 2, xlab = "x", ylab = "dx")
 plot(d$x, d$px, type = "l", lwd = 2, cex = 2, xlab = "x", ylab = "px")
 plot(d$px, d$qx, type = "l", lwd = 2, cex = 2, xlab = "px", ylab = "qx")
 ```
+@fig-normalProperties illustrates
+properties. @fig-normalProperties-1,
+@fig-normalProperties

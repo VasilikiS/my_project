@@ -1,0 +1,17 @@
+"0","#| label: fig-distribution
+#| layout-ncol: 3
+#| fig-cap: Standardized Normal Distribution
+#| fig-subcap: 
+#|   - ""Density""
+#|   - ""Cumulative""
+#|   - ""Quantile""
+x = seq(-3,3, length.out= 1000)
+d = data.frame(x = x, 
+               dx = dnorm(x), 
+               px = pnorm(x), 
+               qx = qnorm(pnorm(x)))
+plot(d$x, d$dx, type = ""l"", lwd = 2, cex = 2, xlab = ""x"", ylab = ""dx"")
+plot(d$x, d$px, type = ""l"", lwd = 2, cex = 2, xlab = ""x"", ylab = ""px"")
+"
+"0","plot(d$px, d$qx, type = ""l"", lwd = 2, cex = 2, xlab = ""px"", ylab = ""qx"")"
+"0",""
