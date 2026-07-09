@@ -1,0 +1,5 @@
+[1,"==> quarto preview my first website.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: my first website.html\n  standalone: true\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  engines:\n    - path: C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\share\\extension-subtrees\\julia-engine\\_extensions\\julia-engine\\julia-engine.js\n  title: my first website\n  editor: visual\n  \n"]
+[1,"Output created: my first website.html\n\nWatching files for changes\n"]
+[1,"Browse at http://localhost:5231/\n"]
+[1,"Listening on http://127.0.0.1:5231/\n"]
